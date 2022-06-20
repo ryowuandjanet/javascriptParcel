@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif, Courier, monospace;
+}
+
+body {
+  color: #fff;
+  height: 100vh;
+  width: 100%;
+  background: #303134;
+  justify-content: center;
+  margin: 0;
+  display: flex;
+}
+
+body h2 {
+  color: #4285f4;
+  text-transform: uppercase;
+  margin: 60px;
+  font-size: 80px;
+}
+
+.all {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  display: flex;
+  position: relative;
+}
+
+.all .inout {
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+}
+
+.all .inout #text, .all .inout button {
+  height: 50px;
+  border: none;
+  padding: 5px 10px;
+  font-size: 18px;
+}
+
+.all .inout #text {
+  width: 80%;
+  border-radius: 5px 0 0 5px;
+}
+
+.all .inout button {
+  width: 20%;
+  color: #fff;
+  cursor: pointer;
+  background: #1a73e8;
+  border-radius: 0 5px 5px 0;
+}
+
+.all .list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.all .list ul li {
+  width: 100%;
+  color: #303134;
+  background: #fff;
+  border: 1px solid #303134;
+  border-radius: 5px;
+  margin: 0;
+  padding: 20px;
+}
+
+.all .list ul li span {
+  color: #fff;
+  float: right;
+  cursor: pointer;
+  background: #eee;
+  border-radius: 3px;
+  margin: -10px 5px 5px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.all .list ul li span.first {
+  background: #ffac13;
+}
+
+.all .list ul li span.second {
+  background: #b11717;
+}
+
+/*# sourceMappingURL=index.1346fb5e.css.map */
