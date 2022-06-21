@@ -1,0 +1,33 @@
+:root {
+  --primary: #ea40a4;
+  --business: #3a82ee;
+  --personal: var(--primary);
+  --light: #eee;
+  --grey: #888;
+  --dark: #313154;
+  --danger: #ff5b57;
+  --shadow: 0 1px 3px #0000001a;
+  --business-glow: 0px 0px 4px #3a82eebf;
+  --personal-glow: 0px 0px 4px #ea40a4bf;
+}
+
+input:not([type="radio"]):not([type="checkbox"]), button {
+  appearance: none;
+  cursor: initial;
+  border: none;
+  outline: none;
+}
+
+body {
+  background: var(--light);
+  color: var(--dark);
+}
+
+section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/*# sourceMappingURL=index.1050fa94.css.map */
